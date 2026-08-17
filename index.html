@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fatima Saleem | Cyber Security Student & Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="logo">Fatima Saleem<span class="dot">.</span></div>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Get in touch</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="glow glow-a"></div>
+      <div class="glow glow-b"></div>
+
+      <div class="hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Cyber Security Student — Offensive Track</p>
+          <h1 class="hero-title">Securing systems.<br>Building the ones<br>worth securing.</h1>
+          <p class="hero-sub">
+            BS Cyber Security student at UMT, Lahore, focused on offensive security —
+            with a parallel habit of shipping full web products end to end.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="Fatima-Saleem CV -2.pdf" download>Download CV</a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo-frame">
+            <img src="profile-pic.jpg" alt="Fatima Saleem">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="about-text">
+        <p class="section-kicker">About</p>
+        <h2 class="section-title">A bit about my focus</h2>
+        <p>
+          I'm working through a BS in Cyber Security.
+          Between red and blue team work, I lean toward <strong>offensive
+          security</strong> — I'd rather learn how a system fails than just how to
+          patch it after.
+        </p>
+        <p>
+          Outside of security coursework, I'm learning web development —
+          frontend, backend, and deployment — by building real projects,
+          because that's the fastest way to understand what you're actually defending.
+        </p>
+        <div class="chips">
+          <span class="chip">Red Team leaning</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIMARY INTEREST -->
+    <section id="interests" class="interests">
+      <p class="section-kicker">Primary Interest</p>
+      <h2 class="section-title">What I focus on</h2>
+
+      <div class="interest-grid">
+
+        <div class="interest-card">
+          <div class="interest-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Building full products end to end — frontend, backend, and deployment — by shipping real projects rather than just reading about them.</p>
+        </div>
+
+        <div class="interest-card">
+          <div class="interest-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3>Offensive Security</h3>
+          <p>Leaning red team — I'd rather learn how a system fails than just how to patch it after, so that's where most of my coursework and curiosity go.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <p class="section-kicker">Skills</p>
+      <h2 class="section-title">Where I'm strongest</h2>
+
+      <div class="skill-bars">
+
+        <div class="skill-bar">
+          <div class="skill-bar-label"><span>Python &amp; C++</span><span class="skill-bar-pct">85%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--fill:85%"></div></div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="skill-bar-label"><span>HTML &amp; CSS</span><span class="skill-bar-pct">70%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--fill:80%"></div></div>
+        </div>
+
+      </div>
+      <div class="tag-row">
+        <span class="tag">Git</span>
+        <span class="tag">SQL / SQLite</span>
+        <span class="tag">Render</span>
+        <span class="tag">Vercel</span>
+        <span class="tag">Linux</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+      <p class="section-kicker">Projects</p>
+      <h2 class="section-title">Things I've built</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="status status-live">Deployed</span>
+          </div>
+          <h3>rule-based-chat-assistant</h3>
+          <p>
+           A rule-based Python/Streamlit chatbot that matches user messages against predefined
+           keyword rules for canned replies, using word-boundary matching to avoid false hits, 
+           with a live Wikipedia lookup as a fallback for anything it doesn't recognize.
+          </p>
+          <div class="stack">
+            <span>Python</span><span>Streamlit</span><span>Rest API</span>
+          </div>
+          <div class="project-buttons">
+            <a class="btn-small btn-live" href="https://rule-based-chat-assistant-vugiaxwlw65fryjymeq3tr.streamlit.app/" target="_blank" rel="noopener noreferrer">Live ↗</a>
+            <a class="btn-small btn-github" href="https://github.com/Fatima-46/rule-based-chat-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="status status-progress">In progress</span>
+          </div>
+          <h3>password-strength-breach-checker</h3>
+          <p>
+            A Flask app that checks password strength and breach exposure.
+             It calculates entropy locally to score strength, then checks the password against
+             known data breaches using the HaveIBeenPwned (HIBP) API via k-anonymity.
+          </p>
+          <div class="project-buttons">
+            <a class="btn-small btn-github" href="https://github.com/Fatima-46/password-strength-breach-checker" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="status status-live">deployed</span>
+          </div>
+          <h3>image-steganography-web</h3>
+          <p>
+            A Flask web app for hiding secret messages inside PNG images 
+            using LSB (Least Significant Bit) steganography. Upload a PNG and a message to get 
+            back an image with the text hidden in it, or upload an encoded image to reveal what's hidden.
+          </p>
+          <div class="stack">
+            <span>React</span><span>Flask</span><span>SQLite</span>
+          </div>
+          <div class="project-buttons">
+            <a class="btn-small btn-live" href="https://fatimasaleem.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Live ↗</a>
+            <a class="btn-small btn-github" href="https://github.com/Fatima-46/image-steganography-web" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+  <article class="project-card">
+          <div class="project-top">
+            <span class="status status-live">deployed</span>
+          </div>
+          <h3>nutrifind</h3>
+          <p>
+            A Streamlit app that looks up nutrition facts (calories, protein, fiber, carbs, iron, calcium)
+             via the USDA API, and suggests recipes from ingredients you have, ranked by match and 
+             protein/fiber density.
+          </p>
+          <div class="stack">
+            <span>Python</span><span>Streamlit</span><span>SQLite</span>
+          </div>
+          <div class="project-buttons">
+            <a class="btn-small btn-live" href="https://nutrifind-cae5w7swywmxdymrxoxviw.streamlit.app/" target="_blank" rel="noopener noreferrer">Live ↗</a>
+            <a class="btn-small btn-github" href="https://github.com/Fatima-46/nutrifind" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-top">
+            <span class="status status-live">deployed</span>
+          </div>
+          <h3>brew-compass</h3>
+          <p>
+            A five-question quiz that matches you to your top three coffees based on taste, 
+            caffeine, budget, and brew method — built with plain HTML, CSS, and vanilla JS,
+             no framework or backend.
+          </p>
+          <div class="stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-buttons">
+            <a class="btn-small btn-live" href="https://yourcoffeematch.netlify.app/" target="_blank" rel="noopener noreferrer">Live ↗</a>
+            <a class="btn-small btn-github" href="https://github.com/Fatima-46/brew-compass" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="certifications">
+      <p class="section-kicker">Certifications</p>
+      <h2 class="section-title">Credentials</h2>
+
+      <div class="cert-card">
+        <ul class="cert-list">
+          <li><span class="cert-bullet"></span>Introduction to Cybersecurity Awareness</li>
+          <li><span class="cert-bullet"></span>Coursera Python</li>
+          <li><span class="cert-bullet"></span>Agile Project Management</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="contact-card">
+        <div class="glow glow-c"></div>
+        <h2 class="section-title">Let's talk</h2>
+        <p>Web Development Intern at Sphere Consulting (Lahore, Pakistan) <br> Aug 2026–Present <br> contributing to front-end development with HTML and CSS while expanding into full-stack development.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:fatimasocietien@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://github.com/Fatima-46">GitHub</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/fatima-saleem-533661392/">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Fatima Saleem. All rights reserved.</p>
+  </footer>
+</body>
+</html>
