@@ -1,0 +1,52 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fatima Saleem — Cyber Security Student and Web Developer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#232D1B"/>
+      <stop offset="45%" stop-color="#3B4A32"/>
+      <stop offset="75%" stop-color="#6B8257"/>
+      <stop offset="100%" stop-color="#9BB388"/>
+    </linearGradient>
+    <linearGradient id="dot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0B563"/>
+      <stop offset="100%" stop-color="#C0912F"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="340" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="30" r="200" fill="#F5F7EF" opacity="0.07"/>
+  <circle cx="1180" cy="260" r="140" fill="#DCE7CC" opacity="0.08"/>
+  <circle cx="30" cy="320" r="150" fill="#F5F7EF" opacity="0.05"/>
+  <circle cx="640" cy="-40" r="120" fill="#9BB388" opacity="0.10"/>
+
+  <line x1="60" y1="60" x2="60" y2="280" stroke="#F5F7EF" stroke-opacity="0.25" stroke-width="1"/>
+
+  <text x="92" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="700" fill="#F5F7EF" letter-spacing="0.5">
+    Fatima Saleem<tspan fill="url(#dot)">.</tspan>
+  </text>
+
+  <text x="94" y="192" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" letter-spacing="2.5" fill="#E8EEDC">
+    CYBER SECURITY STUDENT — OFFENSIVE TRACK
+  </text>
+
+  <text x="94" y="226" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#CFE0B9" opacity="0.9">
+    Securing systems, and building the ones worth securing.
+  </text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#F5F7EF">
+    <rect x="94" y="255" width="88" height="32" rx="16" fill="#F5F7EF" fill-opacity="0.12" stroke="#F5F7EF" stroke-opacity="0.3"/>
+    <text x="138" y="276" text-anchor="middle">Python</text>
+
+    <rect x="192" y="255" width="70" height="32" rx="16" fill="#F5F7EF" fill-opacity="0.12" stroke="#F5F7EF" stroke-opacity="0.3"/>
+    <text x="227" y="276" text-anchor="middle">C++</text>
+
+    <rect x="272" y="255" width="150" height="32" rx="16" fill="#F5F7EF" fill-opacity="0.12" stroke="#F5F7EF" stroke-opacity="0.3"/>
+    <text x="347" y="276" text-anchor="middle">Cryptography</text>
+
+    <rect x="432" y="255" width="120" height="32" rx="16" fill="#F5F7EF" fill-opacity="0.12" stroke="#F5F7EF" stroke-opacity="0.3"/>
+    <text x="492" y="276" text-anchor="middle">Flask</text>
+
+    <rect x="562" y="255" width="140" height="32" rx="16" fill="#F5F7EF" fill-opacity="0.12" stroke="#F5F7EF" stroke-opacity="0.3"/>
+    <text x="632" y="276" text-anchor="middle">Bootstrap 5</text>
+  </g>
+</svg>
